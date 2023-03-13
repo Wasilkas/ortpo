@@ -1,0 +1,1 @@
+import matplotlib.pyplot as pltimport numpy as npsample = np.loadtxt('sample.txt')density = np.loadtxt('density.txt')plt.figure()plt.scatter(np.arange(1, len(sample) + 1), sample)plt.figure()plt.scatter(sample, density)plt.show()
